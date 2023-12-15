@@ -17,7 +17,7 @@ terraform {
 
 provider "abbey" {
   # Configuration options
-  bearer_auth = var.abbey_token
+  bearer_auth = var.test
 }
 
 resource "abbey_grant_kit" "abbey_demo_site" {
